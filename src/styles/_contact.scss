@@ -1,0 +1,52 @@
+@use 'variables';
+
+.contact {
+    width: 80px;
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: variables.$bgColor1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 10px;
+    border-radius: 5px;
+
+    &:hover {
+        .contact__list__text {
+            display: none;
+        }
+
+        .contact__list__item__link__logo {
+            display: block;
+        }
+    }
+
+    &__list {
+     
+        &__text {
+            font-size: 40px;
+        }
+
+        &__item {
+         
+            margin: 10px;
+            &__link {
+              
+               &__logo {
+                width: 60px;
+                display: none;
+               }
+
+               &__name {
+                color: variables.$secondaryTextColor;
+                font-size: 14px;
+                font-weight: 400;
+                text-align: center;
+               }
+            }
+        }
+    }
+} 

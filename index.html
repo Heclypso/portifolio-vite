@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Home page</title>
+    <link rel="icon" type="image/png" href="icons/1(1).png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="dist\css\main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+
+    <div class="navbar">
+
+        <li class="navbar__item">
+            <a class="navbar__item__link" href="#projects">Projects</a>
+        </li>
+
+        <li class="navbar__item">
+            <a class="navbar__item__link" href="#">Freelance</a>
+        </li>
+
+        <li class="navbar__item">
+            <a class="navbar__item__link" href="#about-me">About me</a>
+        </li>
+
+        <li class="navbar__item">
+            <a class="navbar__item__link" href="documents/Curriculo EBAC - Gabriel Munhak.pdf" download="Curriculo EBAC - Gabriel Munhak.pdf">Curriculum</a>
+        </li>
+
+    </div>
+
+    <div class="container">
+        <div class="contact">
+            <ul class="contact__list">
+    
+                <p class="contact__list__text">e</p>
+
+                <li class="contact__list__item">
+                    <a class="contact__list__item__link" href="#">
+                        <img class="contact__list__item__link__logo" src="src\icons\logo-vercel.svg" alt="Vercel logo">
+                    </a>
+                </li>
+    
+                <li class="contact__list__item">
+                    <a class="contact__list__item__link" href="#">
+                        <img class="contact__list__item__link__logo" src="src\icons\logo-github.svg" alt="Github logo">
+                    </a>
+                </li>
+    
+                <li class="contact__list__item">
+                    <a class="contact__list__item__link" href="#">
+                        <img class="contact__list__item__link__logo" src="src\icons\logo-linkedin.svg" alt="Linkedin logo">
+                    </a>
+                </li>
+    
+            </ul>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+           <div>
+            <p class="hero__text hero__text--one">Hello, i am</p>
+            <a href="#about-me" class="hero__text hero__text--two">Gabriel Munhak</a>
+            <p class="hero__text hero__text--three">I develop websites</p>
+           </div>
+
+            <div id="cube__element" alt=""></div>
+        </div>
+    </section>
+
+    <section class="section section--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="section__details">
+                <h2 class="section__details__title">Front-end Carrier</h2>
+                <p class="section__details__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quibusdam, tempore laudantium perspiciatis sit reprehenderit consequuntur ipsam cupiditate distinctio soluta molestias expedita. Cupiditate temporibus ea tempora aliquam! Accusamus, doloribus consequuntur!</p>
+                <a class="section__button">Discover more</a>
+            </div>
+            <img class="section__image" src="https://placehold.co/400x400" alt="">
+        </div>
+    </section>
+
+    <section class="section section--back-end section--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="section__details">
+                <h2 class="section__details__title">Back-end Experience</h2>
+                <p class="section__details__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quibusdam, tempore laudantium perspiciatis sit reprehenderit consequuntur ipsam cupiditate distinctio soluta molestias expedita. Cupiditate temporibus ea tempora aliquam! Accusamus, doloribus consequuntur!</p>
+                <a class="section__button section__button--white">Discover more</a>
+            </div>
+            <img class="section__image" src="https://placehold.co/400x400" alt="">
+        </div>
+    </section>
+
+    <section id="about-me" class="section section--about-me">
+        <div class="container">
+            <div>
+                <img src="https://placehold.co/500x800" alt="">
+            </div>
+            <div>
+                <h2>About me</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt vitae
+                facilis quibusdam labore laborum neque voluptatibus rem natus nulla ex inventore,
+                at adipisci molestias aliquam quaerat, modi vel. Commodi, molestias?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="projects" class="section section--quadrado">
+
+        <a class="section--quadrado__link" href="front-end-projects.html">
+            <div class="quadrado__grande" data-aos="fade-right">
+                <div class="quadrado__grande__contador">
+                    <h2 class="quadrado__grande__contador__titulo">10</h2>
+                    <p class="quadrado__grande__contador__text">Projetos</p>
+                </div>
+
+                <div>
+                    <h2 class="section--quadrado__subtitle">Front-end</h2>
+                </div>
+
+            </div>
+        </a>
+
+        <div class="quadrado__pequeno">
+            <a class="section--quadrado__link" href="back-end-projects.html">
+                <div class="quadrados__menores" data-aos="fade-right">
+                    
+                    <div class="quadrado__grande__contador">
+                        <h2 class="quadrados__menores__contador__titulo">10</h2>
+                        <p class="quadrados__menores__contador__text">Projetos</p>
+                    </div>
+
+                    <div>
+                        <h2 class="section--quadrado__subtitle">Back-end</h2>
+                    </div>
+
+                </div>
+            </a>
+                <a class="section--quadrado__link" href="ai-projects.html">
+                    <div class="quadrados__menores" data-aos="fade-right">
+
+                        <div class="quadrado__grande__contador">
+                            <h2 class="quadrados__menores__contador__titulo">10</h2>
+                            <p class="quadrados__menores__contador__text">Projetos</p>
+                        </div>
+
+                        <div>
+                            <h2 class="section--quadrado__subtitle">Ai</h2>
+                        </div>
+
+                    </div>
+                </a>
+        </div>   
+
+    </section> -->
+
+    <footer class="footer">
+    </footer>
+
+    <!-- Section surge animations -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Scripts  -->
+    <script type="module" src="src\scripts\main.js"></script>
+</body>
+</html>
